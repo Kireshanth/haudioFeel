@@ -145,7 +145,7 @@ const Icons = ({ setMood, token }) => {
                     </li>
                 </ul>
             </div>
-            <Message songDetails={songDetails} songURL={songLink}  />
+            <Message songDetails={songDetails} songURL={songLink} trackCount={trackCount} setTrackCount = {setTrackCount}/>
         </div>
      );
 }
