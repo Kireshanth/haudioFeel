@@ -10,6 +10,7 @@
 **[Check it out](#check-it-out)**<br>
 **[How to use?](#how-to-use)**<br>
 **[Nerd Stuff](#nerd-stuff)**<br>
+**[Limitations](#Limitations)**<br>
 **[Future Improvements](#future-improvements)**<br>
 
 
@@ -36,7 +37,11 @@ You can change the playlists/emojis used by forking this repo and changing the f
 <img src="https://github.com/Kireshanth/haudioFeel/blob/main/src/images/network-diagram.jpg" width="800" height="400">
 </p>
 
-HaudioFeel was built using react. The spotify API and youtube search API were used to fetch songs as described in the diagram above. If you want to fork this repo, you would require access credentials from both APIs.
+HaudioFeel was built using react. The spotify and youtube video search APIs were used to fetch songs as described in the diagram above. If you want to fork this repo, you would require access credentials from both APIs.
+
+## Limitations
+
+Youtube data API has a quota limit of 10,000 daily units. With each search request costing 100 units, a user can cycle between 100 songs daily before the quota is reached.
 
 ## Future Improvements
 
