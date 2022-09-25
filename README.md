@@ -1,4 +1,4 @@
-# Wordlé - HaudioFeel?
+# HaudioFeel?
 
 <p align="middle">
 <img src="https://github.com/Kireshanth/haudioFeel/blob/main/src/images/main-screen.JPG" width="640" height="440">
