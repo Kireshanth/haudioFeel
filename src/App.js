@@ -11,6 +11,7 @@ function App() {
   const [mood, setMood] = useState("Haudiofeel?");
   const [token, setToken] = useState('');
 
+//get spotify access token
 useEffect(()=>{
   axios('https://accounts.spotify.com/api/token', {
     headers: {
@@ -21,7 +22,6 @@ useEffect(()=>{
     method: 'POST'
   })
   .then(tokenResponse => {
-    console.log(tokenResponse.data.access_token);
     setToken(tokenResponse.data.access_token);
   })
 }, []);

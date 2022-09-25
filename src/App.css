@@ -4,6 +4,16 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body{
+    background: url("./images/haudiofeel.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
 .text{
   font-size: 12em;
   font-weight: 600;
@@ -26,27 +36,36 @@
 }
 
 .emoji{
-  font-size: 9em;
+  font-size: 8em;
   cursor: none;
   align-items: center;
 }
 
 .emoji:hover{
-  background-color: aqua;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  cursor: pointer;
+  transition: 0.9s;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+}
+
+.text-grad{
+  background: linear-gradient(90deg, #905960, #241015, #905960);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .card{
-  margin-top: 4em;
+  margin-top: 8em;
   /*border: 1px solid black; */
   width: 1100px;
-  height: 600px;
+  height: 400px;
   padding: 2em;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: whitesmoke;
+  background-color: rgba(245, 245, 245, 0.6);
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
@@ -60,8 +79,8 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border: 1px solid black;
   min-width: 100%;
+  position: relative;
 }
 
 
@@ -70,23 +89,69 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
-  width: 60%;
+  width: 50%;
 }
 
-#song-title{
+.song-title{
   margin: 0;
   font-size: 4.5em;
   font-weight: 700;
-  border: 1px solid black;
   text-align: center;
+  opacity: 1;
 }
 
-#song-artists{
+.song-artists{
   margin: 0;
   font-size: 3em;
-  font-weight: 600;
-  border: 1px solid black;
+  font-weight: 700;
   width: 100%;
   text-align: center;
+  opacity: 1;
+}
+
+#controls{
+  position: absolute;
+  bottom: 0%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#change-track{
+  display: inline;
+}
+
+#track-number{
+  font-size: 2em;
+  font-weight: 600;
+  margin: 0;
+}
+
+.button:hover{
+  cursor: pointer;
+  color: rgba(0,0,0,0.7);
+}
+
+#credits{
+  position: absolute;
+  bottom: 0;
+  padding-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+#credit-text{
+  margin: 0;
+  padding-top: 0.05em;
+  font-weight: 500;
+}
+
+#credit-text a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
 }

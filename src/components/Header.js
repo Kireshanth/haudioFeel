@@ -1,6 +1,6 @@
 const Header = ({ mood }) => {
     return (
-        <div className="text">{ mood }</div>
+        <div className="text text-grad">{ mood }</div>
     );
 }
  
