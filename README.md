@@ -15,7 +15,7 @@
 
 
 ## What is HaudioFeel?
-A free music player that fetches the top songs from currated spotify playlists based on your mood!
+A free music player that fetches the top songs from curated spotify playlists based on your mood!
 
 ## Check it out
 Deployed at [haudiofeel.tech](https://haudiofeel.tech/)
