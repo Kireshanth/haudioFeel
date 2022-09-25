@@ -18,7 +18,7 @@
 A free music player that fetches the top songs from currated spotify playlists based on your mood!
 
 ## Check it out
-Deployed at [haudiofeel.netlify.app](https://haudiofeel.tech/)
+Deployed at [haudiofeel.tech](https://haudiofeel.tech/)
 
 ## How to use?
 Getting started is super simple 🙏 Click on any of the emojis to play music fitting to that feeling and cycle between tracks.
