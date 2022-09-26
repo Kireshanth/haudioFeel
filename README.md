@@ -18,7 +18,7 @@
 A free music player that fetches the top songs from curated spotify playlists based on your mood!
 
 ## Check it out
-Deployed at [haudiofeel.tech](https://haudiofeel.tech/). This project was submitted for the MLH Hack & Wellness 2 hackathon, check out the submission video on [youtube](https://www.youtube.com/watch?v=8w4fAGOmDbE&t=1s&ab_channel=KireshanthThana)
+Deployed at [haudiofeel.tech](https://haudiofeel.tech/). This project was submitted for the MLH Hack & Wellness 2 hackathon, check out the submission video on [youtube.](https://www.youtube.com/watch?v=8w4fAGOmDbE&t=1s&ab_channel=KireshanthThana)
 
 ## How to use?
 Getting started is super simple 🙏 Click on any of the emojis to play music fitting to that feeling and cycle between tracks.
