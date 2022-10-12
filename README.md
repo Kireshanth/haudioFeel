@@ -14,8 +14,8 @@
 **[Future Improvements](#future-improvements)**<br>
 
 
-## What is HaudioFeel?
-A free music player that fetches the top songs from curated spotify playlists based on your mood! This project was submitted for the MLH Hack & Wellness 2 hackathon, check out the submission video on [youtube.](https://www.youtube.com/watch?v=8w4fAGOmDbE&t=1s&ab_channel=KireshanthThana)
+## What is HaudioFeel? (How-do-you-feel?)
+A free music player that lets you browse through and listen to the top 10 songs on Spotify that are related to your mood! This project was submitted for the MLH Hack & Wellness 2 hackathon, check out the submission video on [youtube.](https://www.youtube.com/watch?v=8w4fAGOmDbE&t=1s&ab_channel=KireshanthThana)
 
 ## Check it out
 Deployed at [haudiofeel.tech](https://haudiofeel.tech/).
